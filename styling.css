@@ -1,0 +1,144 @@
+/* CSS Styling for the Form*/
+
+.myForm {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px #888888;
+    margin-top: 30px;
+}
+
+.myForm input[type="text"],
+.myForm input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.myForm label {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.myForm input[type="radio"]:checked+label {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #446688;
+    text-align: center;
+    margin-top: 0;
+}
+
+.update-heading {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+body {
+    background-color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+p,
+ul {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+section:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    section {
+        flex: 100%;
+    }
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: inline-block;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.footer-content span {
+    color: #e25555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #446688;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

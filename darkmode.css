@@ -1,0 +1,150 @@
+/* Dark Mode Styling for the Form */
+
+body {
+    background-color: #2e2e2e;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #ffffff;
+}
+
+.myForm {
+    background-color: #444;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px #000000;
+    margin-top: 30px;
+}
+
+.myForm input[type="text"],
+.myForm input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #555;
+    box-sizing: border-box;
+    color: #ddd;
+}
+
+.myForm label {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #555;
+    color: #ddd;
+}
+
+.myForm input[type="radio"]:checked+label {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ddd;
+    text-align: center;
+    margin-top: 0;
+}
+
+.update-heading {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #444;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+h2,
+p,
+ul {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+section:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    section {
+        flex: 100%;
+    }
+}
+
+footer {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: inline-block;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+.footer-content span {
+    color: #e25555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #555;
+    color: #ddd;
+}
+
+th {
+    background-color: #555;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
